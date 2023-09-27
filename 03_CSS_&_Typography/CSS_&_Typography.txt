@@ -1,0 +1,7 @@
+Typography in CSS
+
+• Typography;
+• Readability & Clarity of Written Text;
+• CSS Properties;
+• CSS Units;
+• Custom Fonts.
