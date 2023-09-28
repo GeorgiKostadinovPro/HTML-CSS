@@ -1,0 +1,43 @@
+body {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+#ul-disk {
+    list-style-type: disc;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead tr {
+    background-color: #CCCCCC;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F1F1F1;
+}
+
+blockquote {
+    border-left: 5px solid black;
+    border-left-color: rgb(221, 221, 221);
+    font-style: italic;
+    padding-left: 20px;
+}
+
+#author {
+    text-align: right;
+}
