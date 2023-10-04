@@ -1,0 +1,72 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+div.viewport {
+    position: relative;
+    overflow: hidden;
+}
+
+div.viewport:nth-child(1) {
+    background: linear-gradient(to right,#1B5A98, #3BD4A4);
+}
+
+div.viewport:nth-child(2) {
+    background: linear-gradient(to right,#AB3076, #D28406);
+}
+
+section.card {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 
+        0 0 1em 0 rgba(0, 0, 0, 0.5),
+        inset 0 0 1em 0 rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.4s ease-in;
+}
+
+section.card:hover {
+    box-shadow: 
+        0 0 1em 0 rgba(0, 0, 0, 1),
+        inset 0 0 1em 0 rgba(0, 0, 0, 0.5);
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+i {
+    color: white;
+    position: absolute;
+}
+
+div.viewport:first-of-type i {
+    top: 85%;
+    left: 90%;
+}
+
+div.viewport:nth-child(2) i {
+    top: 93%;
+    left: 90%;
+}
