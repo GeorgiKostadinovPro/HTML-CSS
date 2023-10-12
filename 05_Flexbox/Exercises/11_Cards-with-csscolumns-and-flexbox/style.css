@@ -40,8 +40,8 @@ div.card section, div.card footer {
 }
 
 div.card footer {
-    border-top: 2px solid #CCC;
     margin-top: auto;
+    border-top: 2px solid #CCC;
 }
 
 div.card img {
