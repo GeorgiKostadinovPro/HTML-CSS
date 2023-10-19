@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Forms</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="form-container">
+           <form>
+               <div class="title">
+                   <i class="fa-solid fa-sign-in"></i>
+               </div>
+               <div class="content">
+                   <div class="form-input-data">
+                       <p>Username</p>
+                       <div class="input-and-icon">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="username" minlength="5" maxlength="50" required>
+                       </div>
+                   </div>
+                   <div class="form-input-data">
+                       <p>Password</p>
+                       <div class="input-and-icon">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" minlength="5" maxlength="50" required>
+                       </div>
+                   </div>
+               </div>
+               <input type="submit" id="loginBtn" value="Login">
+           </form>
+        </div>
+    </div>
+
+</body>
+</html>

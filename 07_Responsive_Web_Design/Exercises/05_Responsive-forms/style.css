@@ -1,0 +1,96 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2em 1em;
+    min-width: 100vh;
+}
+
+div.wrapper { 
+    max-width: 20em;
+    position: relative;
+    padding-block: 1.2em;
+    margin: 0 auto;
+    scale: 1;
+    transition: scale 0.4s ease-in-out;
+}
+
+div.wrapper:hover {
+    scale: 1.2;
+}
+
+div.form-container {
+    padding: 1.5em 1em;
+    padding-top: 2em;
+    background-color: #F8F8F8;
+    border: 2px solid #a5a5a5;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.3);
+}
+
+div.form-container form, 
+div.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+div.content p {
+    font-weight: bold;
+}
+
+div.form-input-data input {
+    width: 100%;
+    padding: 0.5em 1em;
+    border: 0.1em solid #E1E1E1;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.3);
+}
+
+div.title {
+    min-width: 8em;
+    padding: 0.5em 1em;
+    background-color: #fcfcfc;
+    border: 2px solid #a5a5a5;
+    border-radius: 0.3em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.input-and-icon {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5em;
+}
+
+#loginBtn {
+    align-self: flex-start;
+    background-color: #2D2D2D;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#loginBtn:hover {
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.5);
+}
+
+i.fa-sign-in {
+    font-size: 1.2em;
+}
