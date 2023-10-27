@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 Inter, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.site-header {
+    max-height: 10em;
+    background-color: #ffffff;
+}
+
+.site-header .container { 
+    padding: 2em 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .container .site-nav ul {
+    display: flex;
+    gap: 3em;
+}
+
+.site-header .container .auth-nav ul {
+    display: flex;
+    gap: 1em
+}
+
+.style-btn {
+    background-color: #ADE2DF;
+}
+
+.sign-up-btn {
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+.site-intro {
+    background-color: #ADE2DF;
+    text-align: center;
+}
+
+.site-intro .container {
+    padding: 6em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.site-intro h1 {
+    font-size: 4em;
+}
+
+.site-intro .site-info-download-buttons {
+    margin-top: 2em;
+    display: flex;
+    gap: 1em;
+}
+
+.site-intro .site-info-download-buttons a {
+    padding: 1em 1.5em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.5em;
+}
+
+.site-intro .site-info-download-buttons i {
+    padding-right: 0.5em;
+}
+
+.site-intro .shrink-container {
+    max-width: 40em;
+}
+
+.site-intro p {
+    font-size: 1.2em;
+}
+
+.statistics {
+    text-align: center;
+}
+
+.statistics .container {
+    padding: 3em 10em;
+    display: flex;
+    justify-content: center;
+}
+
+.statistics .statistics-card {
+    flex: 1 1 30%;
+    padding: 1em;
+    border-inline: 0.08em solid #DBDBDB;
+}
+
+.statistics .statistics-card h2 {
+    padding-bottom: 1em;
+}
+
+.statistics .statistics-card p {
+    padding-bottom: 4em;
+}
+
+.explore {
+    background-color: #ADE2DF;
+}
+
+.explore .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+}
+
+.explore .media {
+    border: 0.1em dashed #98B8B6;
+}
+
+.explore-content {
+    max-width: 40em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.explore-content h2 {
+    font-size: 3em;
+}
+
+.explore-content-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.explore-content a i {
+    margin-left: 0.5em;
+}
+
+.explore-content a::after {
+    display: block;
+    content: '';
+    margin-top: 0.3em;
+    padding: 0.05em;
+    background-color: #000;
+    max-width: 11.4em;
+}
+
+.pricing-plans {
+    background-color: #F3F5FA;
+}
+
+.pricing-plans .pricing-plans-header {
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.pricing-plans .container {
+    padding-block: 3em;
+}
+
+.pricing-plans .pricing-plans-btn {
+    padding: 0.5em 1em;
+    background-color: #ADE2DF;
+    border-radius: 0.5em;
+}
+
+.pricing-plans .pricing-plans-content {
+    border: 0.1em solid #DBDBDB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-plans .pricing-plan-cards-container {
+    padding-block: 2em;
+    display: flex;
+}
+
+.pricing-plan-card {
+    padding-inline: 2em;
+    border-inline: 0.05em solid #DBDBDB;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-plan-card h3 {
+    text-align: center;
+}
+
+.pricing-plan-card p {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.pricing-plan-card p:nth-child(3) {
+    border-bottom: 0.1em solid #DBDBDB;
+}
+
+.pricing-plan-card p span {
+    margin-right: 0.2em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.pricing-plan-card ul {
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.pricing-plan-card ul li i {
+    margin-right: 0.5em;
+}
+
+.pricing-plan-card .get-plan-btn {
+    display: block;
+    margin-top: auto;
+    text-align: center;
+    padding: 1em 2em;
+    background-color: #ADE2DF;
+    border-radius: 0.5em;
+}
+
+.contact-us {
+    padding: 2em;
+    background-color: #ADE2DF;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us h3 {
+    text-align: center;
+}
+
+.contact-us p {
+    font-weight: bold;
+    padding-bottom: 2em;
+}
+
+.contact-us ul {
+    padding-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact-us ul li i {
+    margin-right: 0.5em;
+}
+
+.contact-us .contact-us-btn {
+    display: block;
+    margin-top: auto;
+    padding: 1em;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.5em;
+}
+
+.site-footer {
+    margin-top: auto;
+    max-height: 5em;
+    background-color: #ffffff;
+}
+
+.site-footer .container {
+    padding: 1.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-footer ul {
+    display: flex;
+    gap: 1em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
