@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.2 'PT Serif', serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: 'PT Serif', serif;
+}
+
+p {
+    line-height: 1.8;
+    font-family: 'PT Sans', sans-serif;
+}
+
+li {
+    display: block;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* site-header */
+.site-header .wrapper {
+    height: 47em;
+    padding: 1.5em 3em;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.site-header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header-navigation .site-nav ul {
+    display: flex;
+    gap: 1.5em;
+}
+
+.site-header-navigation .site-nav ul li a {
+    color: #fff;
+}
+
+.site-header .site-header-intro {
+    padding: 3.5em 8em;
+    max-width: 50em;
+}
+
+.site-header .site-header-intro h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.site-header .site-header-intro p {
+    width: 34em;
+    margin-top: 2em;
+    color: #fff;
+} 
+
+.site-header-navigation img {
+    width: 6em;
+    height: 4.5em;
+}
+
+/* business-aims-and-objectives */
+.business-aims-and-objectives {
+    border-bottom: 0.15em solid #CCCCCC;
+}
+
+.business-aims-and-objectives .wrapper {
+    padding: 7em 11em 6em 11em;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2.5em;
+}
+
+.business-aims-and-objectives .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.business-aims-and-objectives .card h2 {
+    font-size: 2.5em;
+}
+
+.business-aims-and-objectives .card p {
+    width: 36em;
+    padding-bottom: 1.5em;
+}
+
+.business-aims-and-objectives .card .business-aims-objectives-btn {
+    padding: 0.5em 1em;
+    color: #B0825C;
+    border: 0.15em solid #B0825C;
+}
+
+/* sponsors-and-partners */
+.sponsors-and-partners .wrapper {
+    padding: 3em 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.sponsors-and-partners .wrapper .content {
+    text-align: center;
+}
+
+.sponsors-and-partners .wrapper .content h2 {
+    color: #B0825C;
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+}
+
+.sponsors-and-partners .sponsors-container {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.sponsors-container .media {
+    width: 12em;
+    height: 12em;
+    padding: 2em;
+    border-radius: 50%;
+    background-color: #DDDDDD;
+}
+
+.media img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* site-initial-info */
+.site-initial-info {
+    background-color: #171720;
+}
+
+.site-initial-info .wrapper {
+    padding: 3.5em 0 6em 10em;
+    display: flex;
+}
+
+.site-initial-info h3 {
+    font-size: 1.5em;
+    color: #fff;
+    padding-bottom: 1.5em;
+}
+
+.site-initial-info a {
+    color: #A4A6A5;
+    font-size: 0.8em;
+}
+
+.site-initial-info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.site-initial-info .address {
+    margin-right: 5em;
+}
+
+.site-initial-info .statues-and-policies {
+    margin-right: 3em;
+}
+
+.site-initial-info .resources {
+    margin-right: 10em;
+}
+
+/* site-footer */
+
+.site-footer {
+    margin-top: auto;
+    background-color: #171720;
+    border-top: 0.15em solid #3A3A41;;
+}
+
+.site-footer .wrapper {
+    padding: 1em 10em;
+}
+
+.site-footer p {
+    color: #A4A6A5;
+}
